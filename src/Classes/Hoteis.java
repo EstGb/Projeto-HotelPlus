@@ -2,17 +2,15 @@ package Classes;
 
 public class Hoteis {
 	private int id;
+	
 	public int getId() {
 		return id;
 	}
 	public void setId(int id) {
 		this.id = id;
 	}
-	private String nome;
-	private String endereco;
-	private String prox_praia;
-	private String estrelas;
-	private String valor;
+	private String nome, endereco, prox_praia, estrelas, valor;
+	
 	public String getNome() {
 		return nome;
 	}

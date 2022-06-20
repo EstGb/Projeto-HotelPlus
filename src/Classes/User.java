@@ -1,11 +1,8 @@
 package Classes;
 
 public class User {
-	private String nome;
-	private String sobrenome;
-	private String email;
-	private String senha;
-	
+	private String nome, sobrenome, email, senha;
+		
 	public String getNome() {
 		return nome;
 	}
